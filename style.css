@@ -1,0 +1,92 @@
+
+*{
+    overflow: hidden;
+}
+
+style{
+font-family: cursive;
+background-color: #fffdfd;
+margin: 0;
+display: flex;
+align-items: center;
+justify-content: center;
+height: 100vh;
+}
+
+.calculator {
+background-color: #fff;
+background-image:  url(https://darebee.com/images/fitness/start-healthy-lifestyle.jpg);
+border-radius: 8px;
+box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+overflow: hidden;
+width: 65%;
+/* max-width: 600px; */
+text-align: center;
+}
+
+.calculator-header {
+    content: url(https://www.tataaia.com/content/dam/tataaialifeinsurancecompanylimited/blogs/life-insurance/what-is-body-mass-index-and-its-effect-on-the-life-insurance-premium/shutterstock_1341869564.jpg);
+width: 855px;
+height: 115px;
+color: #fff;
+padding: 15px;
+}
+
+.calculator-header h2 {
+margin: 0;
+}
+
+.calculator-body {
+padding: 20px;
+}
+
+.form-group {
+margin-bottom: 20px;
+font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+font-weight: 300;
+}
+
+.form-group label {
+display: block;
+font-size: 14px;
+margin-bottom: 5px;
+}
+
+.form-group select,
+.form-group input {
+width: 100%;
+padding: 10px;
+box-sizing: border-box;
+border: 1px solid #ddd;
+border-radius: 4px;
+font-size: 14px;
+}
+
+.btn-success {
+background-color: #09e264;
+color: #100f0f;
+padding: 10px 15px;
+border: #f60707;
+border-radius: 4px;
+cursor: pointer;
+font-size: 16px;
+}
+
+.btn-success:hover {
+    background-color: rgb(4, 119, 154);
+  }
+
+.result {
+margin-top: 20px;
+font-size: 18px;
+font-weight: bold;
+color: #2ecc71;
+}
+
+.health-meter {
+margin-top: 20px;
+height: 150px;
+display: flex;
+align-items: center;
+justify-content: center;
+}
